@@ -25,3 +25,5 @@ fi
 if [ -z "$SHARK_PATH" ] || [ "$SHARK_PATH" != "~/shark" ]; then
   echo "export SHARK_PATH=~/shark" >> ~/.bashrc
 fi
+
+source ~/.bashrc
